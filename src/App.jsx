@@ -1,8 +1,13 @@
+import HeroPage from "./Pages/HeroPage"
+import FutureIsHumanPage from "./Pages/FutureIsHumanPage"
+import SkillsPage from "./Pages/SkillsPage"
 function App() {
 
   return (
     <>
-    <h1>Hero Page </h1>
+    <HeroPage />
+    <FutureIsHumanPage />
+    <SkillsPage />
     </>
   )
 }
