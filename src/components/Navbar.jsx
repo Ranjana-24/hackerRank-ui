@@ -5,8 +5,7 @@ export default function Navbar() {
   return (
     <>
 
-    <div className="flex mt-4 py-5 position-sticky top-0 bg-white  z-10">
-    
+    <div className="flex mt-4 py-5 sticky top-0 bg-white z-10 items-center ">
       <div>
         <img src={logo} alt="logo"
         className = "ml-8 h-5" />
@@ -21,11 +20,13 @@ export default function Navbar() {
         </div>
       ))}
         </div>
-      <div className="ml-40">
+      <div className="ml-40 gap-3">
         <Button
-        variant = "plain">Log In</Button>
+        variant = "plain ">Log In
+        </Button>
         <Button
-        variant = "blank">Request Demo</Button>
+        variant = "blank">Request Demo
+        </Button>
         <Button variant="filled">Create a free account</Button>
       </div>
       </div>

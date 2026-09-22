@@ -1,15 +1,16 @@
 import HeroPage from "./Pages/HeroPage"
 import FutureIsHumanPage from "./Pages/FutureIsHumanPage"
-import SkillsPage from "./Pages/SkillsPage"
+import FeatureSectionPage from "./Pages/FeatureSectionPage"
+import CompaniesDevelopersPage from "./components/CompaniesDevelopers"
 function App() {
 
   return (
     <>
     <HeroPage />
     <FutureIsHumanPage />
-    <SkillsPage />
+    <FeatureSectionPage />
+    <CompaniesDevelopersPage />
     </>
   )
 }
-
 export default App
