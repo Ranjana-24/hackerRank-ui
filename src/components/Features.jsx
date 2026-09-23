@@ -20,7 +20,7 @@ export default function Features({ feature }) {
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: false }}
   transition={{ duration: 0.6 }}
-          className="text-2xl mt-5 sm:text-3xl md:text-4xl font-sans">
+          className="text-2xl mt-5 sm:text-3xl md:text-4xl font-sans py-3">
             {feature.title}
           </motion.h2>
           <p
@@ -51,9 +51,10 @@ export default function Features({ feature }) {
             loop
             muted
             playsInline
-            className="w-full h-auto rounded hover:shadow-lg hover:shadow-green-200"
+            className="w-full h-100 rounded hover:shadow-lg hover:shadow-green-200"
           >
-            <source src={feature.post} type="video/mp4" />
+            <source src={feature.post} type="video/mp4" 
+            className="rounded-xl"/>
           </video>
         </div>
       </div>

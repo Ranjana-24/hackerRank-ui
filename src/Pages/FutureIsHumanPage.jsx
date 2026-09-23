@@ -7,12 +7,12 @@ export default function FutureIsHumanPage() {
       <div className="h-40 bg-gradient-to-b from-white via-green-300 to-green-950 " 
    />
 
-      <motion.section 
+      <section 
       className="bg-black px-6 py-20 h-150 text-white sm:px-10 md:px-16 lg:px-24"
-      initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: false }}
-  transition={{ duration: 0.6 }}
+  //     initial={{ opacity: 0, y: 30 }}
+  // whileInView={{ opacity: 1, y: 0 }}
+  // viewport={{ once: false }}
+  // transition={{ duration: 0.6 }}
          style={{ backgroundImage: `url(${back})` }}>
         <div className="mx-auto max-w-6xl">
           <h1 className="max-w-4xl text-4xl font-bold leading-tight text-green-400 sm:text-5xl md:text-6xl">
@@ -33,7 +33,7 @@ export default function FutureIsHumanPage() {
             </p>
           </div>
         </div>
-      </motion.section>
+      </section>
 
       {/* Blue gradient */}
       <div className="h-40 bg-gradient-to-b from-blue-900 via-blue-400 to-white" />
