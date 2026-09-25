@@ -21,7 +21,7 @@ const firstRow = [
 
 const secondRow = [
   { image: ibm, name: "ibm" },
-  { image: linkedin, name: "linkedin" },
+  // { image: linkedin, name: "linkedin" },
   { image: paypal, name: "paypal" },
   { image: snapinc, name: "snapinc" },
   {image: atlassian, name: "atlassian"}

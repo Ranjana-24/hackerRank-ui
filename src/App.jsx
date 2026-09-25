@@ -3,6 +3,7 @@ import FutureIsHumanPage from "./Pages/FutureIsHumanPage"
 import FeatureSectionPage from "./Pages/FeatureSectionPage"
 import CompaniesDevelopersPage from "./components/CompaniesDevelopers"
 import FooterPage from "./Pages/FooterPage"
+import SocialMediaPage from "./Pages/SocialMediaPage"
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
     <FeatureSectionPage />
     <CompaniesDevelopersPage />
     <FooterPage />
+    <SocialMediaPage />
     </>
   )
 }

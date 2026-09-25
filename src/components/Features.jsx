@@ -6,8 +6,8 @@ export default function Features({ feature }) {
   return (
     <>
       <div
-        className={`flex flex-col items-center px-5 sm:px-8  lg:px-15 
-        gap-10 sm:gap-16 lg:gap-30 py-5
+        className={`flex flex-col items-center px-4 sm:px-8  lg:px-15 
+        gap-10 sm:gap-16 lg:gap-30 py-4
         ${feature.reverse ? "lg:flex-row-reverse" : "lg:flex-row"}`}
       >
 
@@ -54,7 +54,7 @@ export default function Features({ feature }) {
             className="w-full h-100 rounded hover:shadow-lg hover:shadow-green-200"
           >
             <source src={feature.post} type="video/mp4" 
-            className="rounded-xl"/>
+            className="rounded"/>
           </video>
         </div>
       </div>

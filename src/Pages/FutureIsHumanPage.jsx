@@ -19,18 +19,26 @@ export default function FutureIsHumanPage() {
             The future is human <span className="inline-block font-roboto font-normal">plus</span> AI.
           </h1>
 
-          <div className="mt-8 w-full max-w-5xl space-y-6 sm:mt-10 sm:space-y-8">
-            <p className="text-lg leading-relaxed sm:text-xl md:text-2xl">
+          <div className="mt-8 w-full max-w-5xl space-y-6 sm:mt-10 sm:space-y-8"
+      >
+            <motion.p className="text-lg leading-relaxed sm:text-xl md:text-2xl"
+                initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 0.6 }}>
               We’ve entered a new era of software development where human and
               AI build together. This changes the skills you need as a
               developer, and the way companies engage, hire, and upskill
               technical talent. In short, this changes everything.
-            </p>
+            </motion.p>
 
-            <p className="text-lg leading-relaxed sm:text-xl md:text-2xl">
+            <motion.p className="text-lg leading-relaxed sm:text-xl md:text-2xl"initial={{ opacity: 0, y: 30 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             viewport={{ once: false }}
+             transition={{ duration: 0.6 }}>
               We’re embracing these changes with you, and we’ve reinvented our
               products to meet the moment.
-            </p>
+            </motion.p>
           </div>
         </div>
       </section>
